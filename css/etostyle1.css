@@ -1,0 +1,23 @@
+.container{
+    width: 100vw;
+    height: 100 vh;
+}
+.block1{
+    background-color:pink;
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+}
+.block2{
+    text-align:justify;
+    padding:20px 20px;
+    background-color:pink;
+    width: 20%;
+    height: 100%
+}
+.block3{
+    background-color:pink;
+    width:155px;
+    height:110%;
+    padding: 20px 20px;
+}
