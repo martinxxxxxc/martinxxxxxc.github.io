@@ -1,0 +1,279 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../fonts/);
+}
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../fonts/Rubik-Regular/.ttf);
+}
+
+.container{
+    width: 1180;
+    /* height: 100vw; */
+    /* background-color:cadetblue; */
+    margin: 0 auto;
+}
+.header{
+    height: 40px;
+    /* background-color:cyan; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.header__logo-name{
+    margin-left: 11.88px;
+    font-family: Rubik-Medium;
+    font-size: 18px;
+}
+.header__search__input{
+    border: none;
+    border-bottom: 1px solid #333333;
+    width: 320px;
+    height: 20px;
+    font-family: Rubik-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color:salmon;
+}
+.header__search__input:focus{
+    outline: none
+    color: #333333;
+    font-family: Rubik-Medium;
+}
+.poisk_btn{
+    font-family: Rubik-Medium;
+    font-size: 16px;
+    color:#E5261E;
+    background: none;
+    border: none;
+    margin-left:32px; 
+}
+.voiti{
+    width: 113px;
+    height: 38px;
+    border: none;
+    background: #E5261E;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: Rubik-Medium;
+    font-size: 16px;
+    margin-right: 150px;
+}
+.header__auth:hover{
+    background-color: #CCCCCC;
+}
+.header_main{
+    height: 100px;
+    /* background-color:cyan; */
+    align-items: center;
+    margin-top: 25px;
+    display: flex;
+}
+.dasidani_button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    background: white;
+    border-radius: 3px;
+    color: #E5261E;
+    font-family: Arial;
+    font-size: 25px;
+    border-bottom: 3px solid #E5261E;
+    margin-left: 590px;
+    font-weight: bolder;
+}
+.ninau_button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    color: black;
+    font-family: Arial;
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.body1_main{
+    height: 100px;
+    /* background-color:cyan; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+}
+.fire_icon{
+    margin-left: 150px;
+    font-size: 22px;
+}
+.novinki_btn{
+    width: 90px;
+    height: 50px;
+    border: none;
+    background-color:white;
+    color:black;
+    font-size: 22px;
+}
+.block_kartinok{
+    align-items: center;
+    margin-left: 150px;
+    justify-content: space-between;
+    display: flex;
+}
+.kartinka_kot{
+    width: 190px;
+    font-size: 16px;
+    font-family: Arial;
+    color: black;
+    font-weight:normal;
+    margin-top: 31px;
+}
+.kartinka_batman{
+    width: 190px;
+    font-size: 16px;
+    font-family: Arial;
+    color: black;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.kartinka_hollywood{
+    width: 190px;
+    font-size: 16px;
+    font-family: Arial;
+    color: black;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.kartinka_woman{
+    width: 430px;
+    font-size: 16px;
+    font-family: Arial;
+    color: black;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.Ganer{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial;
+}
+.emojis{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.Smilek{
+    padding: 20px 101px;
+    width: 200;
+    height: 208;
+    background-color:orange;
+    margin-left: 150px;
+    border-radius: 8px;
+    border-style: none;
+}
+.emoji_smilek{
+    font-size: 30px;
+
+}
+.Smilek_text{
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bolder;
+    color:white;
+}
+.Sob{
+    padding: 20px 108px;
+    width: 280;
+    height: 208;
+    background-color:red;
+    margin-left: 16px;
+    border-radius: 8px;
+    border-style: none;
+}
+.emoji_sob{
+    font-size: 30px;
+}
+.Sob_text{
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bolder;
+    color:white;
+}
+.alien{
+    padding: 20px 88px;
+    width: 200;
+    height: 208;
+    background-color:blue;
+    margin-left: 16px;
+    border-radius: 8px;
+    border-style: none;
+}
+.emoji_alien{
+    font-size: 30px;
+}
+.alien_text{
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bolder;
+    color:white;
+}
+.ghost{
+    padding: 20px 110px;
+    width: 180;
+    height: 208;
+    background-color:grey;
+    margin-left: 18px;
+    border-radius: 8px;
+    border-style: none;
+    margin-right: 150px;
+}
+.emoji_ghost{
+    font-size: 30px;
+}
+.ghost_text{
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bolder;
+    color:white;
+}
+.footer_ubg{
+    margin-top: 75px;
+    height: 90px;
+    width: 100%;
+    background-color:gainsboro;
+    display: flex;
+}
+.footer_pic{
+    padding: 5px;
+    margin-left: 150px;
+}
+.footer_text{
+    font-family: Arial;
+    margin-left: 25px;
+}
+.address{
+    margin-top: 10px;
+    font-weight:bolder;
+}
+.footer_text1{
+    padding: 10px 0px;
+}
+.footer_text2{
+    padding: 5px;
+}
